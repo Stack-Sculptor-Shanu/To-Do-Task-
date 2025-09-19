@@ -9,7 +9,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const API_URL = "http://localhost:3000/tasks";
+  const API_URL = "https://to-do-backend-1peq.onrender.com/tasks";
 
   // Fetch tasks from JSON server
   useEffect(() => {
